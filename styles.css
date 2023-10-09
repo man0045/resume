@@ -1,0 +1,178 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #f9f9f9;
+ transition: background-color 0.5s ease;
+}
+
+.container {
+ max-width: 960px;
+ margin: 0 auto;
+ padding: 20px;
+}
+h1{
+ margin-left: 405px;
+}
+h3{
+ margin-left: 405px;
+}
+
+header {
+ background-color: #3498db;
+ color: white;
+ padding: 20px 0;
+
+}
+
+nav ul {
+ list-style: none;
+ display: flex;
+}
+
+nav ul li {
+ margin: 0 15px;
+}
+
+nav ul li a {
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+ transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+ color: #ecf0f1;
+}
+
+.content {
+ padding: 50px 0;
+}
+
+.info,
+.contact {
+ margin-bottom: 30px;
+}
+
+.contact .social-icons a {
+ margin-right: 15px;
+ color: #3498db;
+ font-size: 24px;
+ transition: color 0.3s ease;
+}
+
+.contact .social-icons a:hover {
+ color: #2980b9;
+}
+/* button #colorButton{
+ background-color: #474e53;
+} */
+
+/* ... (your existing CSS rules) ... */
+
+#colorButton {
+ background-color: #4e5e69; /* Default background color */
+ color: white;
+ border: none;
+ padding: 10px 20px;
+ cursor: pointer;
+ font-size: 18px;
+ border-radius: 5px;
+ transition: background-color 0.3s ease;
+ margin-left: 461px;
+}
+
+#colorButton:hover {
+ background-color: #4e5e69; /* Color on hover */
+}
+
+#colorButton.clicked {
+ background-color: #e74c3c; /* Color when button is clicked */
+}
+/* 
+colorButton{
+ background-color: #474e53;
+} */
+
+ button{
+ background-color: #2980b9;
+ color: white;
+ border: none;
+ padding: 10px 20px;
+ cursor: pointer;
+ font-size: 18px;
+ border-radius: 5px;
+ transition: background-color 0.3s ease;
+ margin-left: 332px;
+} 
+ #button colorButton{
+ margin-left: 45px;
+}  
+button:hover {
+ background-color: #474e53;
+}
+
+.technologies {
+ display: flex;
+}
+
+.column {
+ flex: 1;
+ padding: 0 20px;
+}
+
+.column ul {
+ list-style: none;
+ padding: 0;
+}
+footer {
+    background-color:white;
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.column ul li {
+ margin-bottom: 10px;
+}
+/* ... (same as before) ... */
+
+.tech-list li {
+ background-color: #3498db;
+ color: white;
+ padding: 10px 15px;
+ border-radius: 5px;
+ margin-bottom: 10px;
+ display: inline-block;
+ margin-right: 10px;
+ cursor: pointer;
+ transform: translateY(0);
+ opacity: 1;
+ transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.tech-list li:hover {
+ transform: translateY(-5px);
+ opacity: 0.8;
+}
+
+.button-container {
+ margin-top: 20px;
+}
+
+#colorButton {
+ background-color: #4e5e69;
+ color: white;
+ border: none;
+ padding: 10px 20px;
+ cursor: pointer;
+ font-size: 18px;
+ border-radius: 5px;
+ transition: background-color 0.3s ease;
+}
+
+#colorButton:hover {
+ background-color: #2980b9;
+}
